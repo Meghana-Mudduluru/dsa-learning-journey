@@ -1,5 +1,3 @@
-from logging import setLogRecordFactory
-
 
 class node:
     def __init__(self,data):
@@ -122,8 +120,8 @@ class LinkedList:
 
 
 ll1=LinkedList()
-#ll1.add_begin(10)
-#ll1.add_begin(20)
+ll1.add_begin(10)
+ll1.add_begin(20)
 #ll1.add_begin(30)
 #ll1.add_end(100)
 #ll1.after_node(200,100)
@@ -133,5 +131,5 @@ ll1=LinkedList()
 #ll1.insert_empty(110)
 #ll1.delete_begin()
 #ll1.delete_end()
-#ll1.delete_byValue(10)
+ll1.delete_byValue(10)
 ll1.print_LL()
